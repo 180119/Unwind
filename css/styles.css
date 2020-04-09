@@ -2,9 +2,7 @@ body div .carousel{
 	height: 300px;
 }
 
-.navbar{
-	background-color: #f9f3e4
-}
+
 .navbar-nav{
 	padding-left: 350px;
 	
@@ -18,12 +16,53 @@ body div .carousel{
 
 }
 
+h1,h2,h3{
+	font-family: subscriber;
+}
+
+p{
+	font-family: dosis;
+}
+
 .column{
-	padding: 30px;
+	margin: 70px;
+	border-top-style: solid;
+	border-width: 10px;
+	border-color: #fff0b3;
+
+}
+
+.btn {
+	border-color: #fff0b3;
+	border-width: 5px;
+	color: black;
+	width: 150px;
+
+}
+
+.btn:active {
+ 	color: #fff0b3;
+ }
+
+.btn:hover{ 
+	background-color: #fff0b3;
+	border-color: #fff0b3;
+ }
+
+ a{
+ 	font-family: dosis;
+ 	color: black
+
+ }
+
+#copyright {
+	 font-weight: bold;
 }
 
 .footer{
 	height: 60px;
-	background-color: #f9f3e4;
+	background-color: #fff0b3;
 	padding: 20px;
-}
+
+
+
