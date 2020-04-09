@@ -1,5 +1,5 @@
-.carousel{
-	height: 300px !important;
+body div .carousel{
+	height: 300px;
 }
 
 .navbar{
@@ -18,9 +18,12 @@
 
 }
 
+#login{
+ padding: -300px;
+}
+
 .footer{
 height: 60px;
 background-color: #f9f3e4;
-text-align: center;
 padding-top: 20px;
 }
