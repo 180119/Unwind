@@ -1,1 +1,26 @@
-@charset "UTF-8";
+.carousel{
+	height: 300px !important;
+}
+
+.navbar{
+	background-color: #f9f3e4
+}
+.navbar-nav{
+	padding-left: 350px;
+	
+}
+
+.nav-item{
+	font-family: dosis;
+	font-size: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+
+.footer{
+height: 60px;
+background-color: #f9f3e4;
+text-align: center;
+padding-top: 20px;
+}
