@@ -18,12 +18,12 @@ body div .carousel{
 
 }
 
-#login{
- padding: -300px;
+.column{
+	padding: 30px;
 }
 
 .footer{
-height: 60px;
-background-color: #f9f3e4;
-padding-top: 20px;
+	height: 60px;
+	background-color: #f9f3e4;
+	padding: 20px;
 }
