@@ -10,6 +10,7 @@
    		<link href="./css/styles.css" type="text/css" rel="stylesheet"> 
    		<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
    		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 			
 		<title> UNWIND </title> 
 	</head>
@@ -45,35 +46,25 @@
 						        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						        LOGIN
 						        </a>
-						        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						          <a class="dropdown-item" href="login.html">
-									<form class="form-inline">
-								    	<div class="input-group">
-								     		<div class="input-group-prepend">
-										      	<span class="input-group-text" id="basic-addon1"> 
-											      	<svg class="bi bi-people-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-													  <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 008 15a6.987 6.987 0 005.468-2.63z"/>
-													  <path fill-rule="evenodd" d="M8 9a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"/>
-													  <path fill-rule="evenodd" d="M8 1a7 7 0 100 14A7 7 0 008 1zM0 8a8 8 0 1116 0A8 8 0 010 8z" clip-rule="evenodd"/>
-													</svg>
-												</span>
-									      	</div>
-									      <input type="text" class="form-control" placeholder="Studentnumber" aria-label="Username" aria-describedby="basic-addon1">
-								    	</div>
-								  </form>
-								  <form class="form-inline">
-								    <div class="input-group">
-								      <div class="input-group-prepend">
-								      	<span class="input-group-text" id="basic-addon2"> 
-								      		<svg class="bi bi-lock-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-											  <rect width="11" height="9" x="2.5" y="7" rx="2"/>
-											  <path fill-rule="evenodd" d="M4.5 4a3.5 3.5 0 117 0v3h-1V4a2.5 2.5 0 00-5 0v3h-1V4z" clip-rule="evenodd"/>
-											</svg>
-										</span>
-								      </div>
-								      <input type="text" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1">
+						        <form class="dropdown-menu p-4">
+								  <div class="form-group">
+								    <label for="exampleDropdownFormEmail2"></label>
+								   <input type="text" class="form-control" placeholder="Studentnumber" aria-label="Username" aria-describedby="basic-addon1">
+								  </div>
+								  <div class="form-group">
+								    <label for="exampleDropdownFormPassword2"></label>
+								    <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+								  </div>
+								  <div class="form-group">
+								    <div class="form-check">
+								      <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+								      <label class="form-check-label" for="dropdownCheck2">
+								        Remember me
+								      </label>
 								    </div>
-								  </form>
+								  </div>
+								  <a class="btn btn-outline-primary" href="login.html" type="button">Sign in</a>
+								</form>
 								  </a>
 								</div>
 							 </li>
@@ -118,8 +109,10 @@
 					  <div class="carousel-item">
 					      <img src="./images/music.jpg" class="d-block w-100" alt="Music">
 					      <div class="carousel-caption d-none d-md-block">
-					        <h5>Playing music</h5>
-					        <p>There is also an option to play music.</p>
+					        <div class="carousel-music">
+					        	<h5>Playing music</h5>
+					        	<p>There is also an option to play music.</p>
+					        </div>
 					      </div>
 					  </div>
 					  </div>
@@ -138,13 +131,20 @@
 <!--End of carousel. -->
 
 <!--Start of column 1. -->
-			
 			<div class="row">
 				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
 					<div class="column">
 						<h1> UNWIND THE BRAND
 						</h1>
-							<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque auctor, mauris at egestas fringilla, erat ipsum tempor ex, nec pellentesque arcu metus eu magna. Proin gravida tellus leo, sit amet efficitur orci mollis vel. Sed tincidunt fringilla velit quis vestibulum. Maecenas vitae porta metus. Proin nec ullamcorper magna. Maecenas consectetur pharetra odio ut aliquet. Phasellus molestie, nibh sit amet volutpat sodales, justo felis vestibulum est, sed consectetur tellus ligula sed est. Nunc consequat sem sit amet enim vehicula porta. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla varius diam rhoncus porttitor rutrum. Quisque pulvinar cursus odio. Maecenas ac molestie velit, sed venenatis tellus.
+						<br>
+						<div id="vision">
+							<h2> our vision 
+							</h2>
+								<p> “In a society of perfectionism we tend to drown in our endless attempts of achieving an unrealistic ideal. We believe in getting rid of impossible standards, only then we can feel free of pressure and exist freely.”
+								</p>
+						</div>
+						<br>
+							<p> “UNWIND” is a new brand that stands for balance, confidence, liberty and a positive outlook. As a brand we focus on a society of perfectionism where we tend to drown in our endless attempts of achieving an unrealistic ideal. We believe in getting rid of impossible standards, only then we can feel free of pressure and exist freely. As students we feel pressured to achieve the highest possible result and to know exactly what we want in life. As a result, many students encounter stress about their academic results and their future. Quitting is not an option because that would be seen as failure. We are not alone in this and therefore we want to raise awareness about this problem.
 							</p>
 					</div>
 				</div>
@@ -157,10 +157,12 @@
 					<div class="column">
 						<h1> BOOK AN ACTIVITY
 						</h1>
-							<a class="btn btn-outline-primary" href="login.html" type="button"> BOOK HERE </a>
-							
-							<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque auctor, mauris at egestas fringilla, erat ipsum tempor ex, nec pellentesque arcu metus eu magna. Proin gravida tellus leo, sit amet efficitur orci mollis vel. Sed tincidunt fringilla velit quis vestibulum. Maecenas vitae porta metus. Proin nec ullamcorper magna. Maecenas consectetur pharetra odio ut aliquet. Phasellus molestie, nibh sit amet volutpat sodales, justo felis vestibulum est, sed consectetur tellus ligula sed est. Nunc consequat sem sit amet enim vehicula porta. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla varius diam rhoncus porttitor rutrum. Quisque pulvinar cursus odio. Maecenas ac molestie velit, sed venenatis tellus.
+							<p> Did you become curious? Try our service now with the one-week free trial and book your first relaxing activity here! 
 							</p>
+							<br>
+							<div id="btn-bookhere">
+							<a class="btn btn-outline-primary" href="login.html" type="button">  BOOK HERE </a>
+							</div>
 					</div>
 				</div>
 				
@@ -182,6 +184,7 @@
 <!--Bootstrap scripts. -->				
 			<script src="./js/jquery-3.4.1.slim.min.js"></script>
 	   		<script src="js/bootstrap.bundle.min.js"></script>
+	   		
 		</div>
 	</body>
 
@@ -192,7 +195,7 @@
 							<img src="./images/logo.png" href="index.html" height="30px" alt="UNWIND logo">
 						</div>
 
-						<div class="col-lg-3 col-md-3 col-sm-7 col-xs-7">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 							<a href="justification.html">Justification page</a>
 						</div>
 
@@ -203,11 +206,11 @@
 							</div>
 						</div>
 
-						<div class="col-lg-2 col-md-2 col-sm-7 col-xs-7">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
 							<a href="https://www.instagram.com/unwind" class="fa fa-instagram"></a>
 						</div>
 
-						<div class="col-lg-2 col-md-2 col-sm-7 col-xs-7">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
 							<a href="https://www.facebook.com/unwind" class="fa fa-facebook"></a>
 						</div>
 					</div>
