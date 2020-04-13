@@ -1,5 +1,6 @@
 .navbar-nav{
-	padding-left: 350px;
+	position: absolute;
+    right: 0;
 }
 
 .nav-item{
@@ -47,6 +48,10 @@ p{
 
 }
 
+.column h1 {
+	text-align: left;
+}
+
 .column-login{
 	margin: 50px;
 	border-top-style: solid;
@@ -80,7 +85,8 @@ p{
 #btn-login{
 	margin-left: 80px;
 }
-#btn-bookhere{
+
+#btn-bookhere a{
 	border-width: 5px;
 	width: 325px;
 	height: 65px;
@@ -90,6 +96,7 @@ p{
 #btn-submit{
 	margin-left: 100px;
 }
+
  a{
  	font-family: dosis;
  	color: #384463;
@@ -161,18 +168,25 @@ body {font-family: Dosis, sans-serif;}
   margin-bottom: 5px;
   font-size:12px;
   color: #777;
+  cursor: pointer;
 }
 
-/* Highlight the "current" day */
-.days li .active {
-  padding: 5px;
-  background: #fff0b3;
-  color: black!important
+.days li:hover {
+	background-color: lightgrey;
 }
 
+td{
+	cursor: pointer;
+}
+td:hover{
+	background-color: lightgrey;
 
+}
 
-
+#confirmed{
+	padding: 200px;
+	text-align: center;
+}
 
 #copyright {
 	 font-weight: bold;
@@ -188,6 +202,17 @@ body {font-family: Dosis, sans-serif;}
 	background-color: #fff0b3;
 	padding: 20px;
 	color: #384463;
+}
+
+@media (max-width: 575px) {
+	.footer {
+		height: auto;
+	}
+
+	.footer .row {
+		text-align: center;
+	}
+}
 
 
 
