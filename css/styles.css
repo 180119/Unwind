@@ -1,3 +1,7 @@
+*{
+ box-sizing: border-box	
+}
+
 .navbar-nav{
 	padding-left: 350px;
 }
@@ -188,7 +192,4 @@ body {font-family: Dosis, sans-serif;}
 	background-color: #fff0b3;
 	padding: 20px;
 	color: #384463;
-
-
-
 
