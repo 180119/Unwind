@@ -1,3 +1,7 @@
+*{
+ box-sizing: border-box	
+}
+
 .navbar-nav{
 	position: absolute;
     right: 0;
@@ -214,7 +218,4 @@ td:hover{
 		text-align: center;
 	}
 }
-
-
-
 
