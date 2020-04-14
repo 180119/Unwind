@@ -66,6 +66,17 @@ p{
 	color: #384463;
 }
 
+#aboutus {
+	padding: 100px;
+	margin: 30px;
+}
+#aboutus img{
+	width: 200px;
+	height: 200px;
+	float: left;
+
+}
+
 #vision {
 	font-style: italic;
 	text-align: center
