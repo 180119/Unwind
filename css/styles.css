@@ -119,6 +119,9 @@ p{
 	margin-left: 100px;
 }
 
+#btn-send-feedback{
+	float: right;
+}
 
  a{
  	font-family: dosis;
