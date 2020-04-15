@@ -133,7 +133,7 @@ body {font-family: Dosis, sans-serif;}
 
 /* Month header */
 .month {
-  padding: 70px 25px;
+  padding: 40px 25px;
   width: 100%;
   background: #fff0b3;
   text-align: center;
@@ -205,6 +205,16 @@ td{
 }
 td:hover{
 	background-color: lightgrey;
+
+}
+
+#profile{
+	float: left;
+	padding-left: 30px;
+}
+
+#profile-img{
+	float:left;
 
 }
 
