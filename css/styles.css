@@ -91,8 +91,13 @@ p{
 }
 
 #campus{
-	margin: 150px;
+	margin: 20%;
 }
+
+#campus img{
+	width: 100%;
+}
+
 .btn {
 	border-color: #fff0b3;
 	color: #384463;
