@@ -33,12 +33,18 @@
 
 h1,h2,h3{
 	font-family: Permanent Marker;
-	font-size: 30px;
-
+	
 }
 
 h1{
 	color: #8bc6f4;
+	font-size: 28px;
+
+}
+
+h3{
+	font-size: 18px;
+	
 }
 
 p{
@@ -98,9 +104,17 @@ p{
 	width: 100%;
 }
 
+.icons {
+  width: 20px;
+  height: 20px;
+}
+
 .btn {
 	border-color: #fff0b3;
+	background-color: #fff0b3;
 	color: #384463;
+	border-width: 4px;
+	width: 110px;
 }
 
 .btn:active {
@@ -108,8 +122,9 @@ p{
  }
 
 .btn:hover{ 
-	background-color: #fff0b3;
+	background-color: #ffffff;
 	border-color: #fff0b3;
+	color: #384463 ;
  }
 
 #btn-login{
@@ -117,7 +132,6 @@ p{
 }
 
 #btn-bookhere a{
-	border-width: 5px;
 	width: 325px;
 	height: 65px;
 	font-size: 30px;

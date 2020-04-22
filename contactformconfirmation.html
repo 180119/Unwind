@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en"> 
-		<head>
+	<head>
 		 <meta charset="utf-8">
    		 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -10,6 +10,7 @@
    		<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
    		<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
    		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 			
 		<title> UNWIND </title> 
 	</head>
@@ -37,8 +38,8 @@
 							<li class="nav-item">
 								<a class="nav-link" href="ourservice.html">OUR SERVICE</a>
 							</li>
-							<li class="nav-item active">
-								<a class="nav-link" href="contact.html">CONTACT<span class="sr-only">(current)</span></a>
+							<li class="nav-item">
+								<a class="nav-link" href="contact.html">CONTACT</a>
 							</li>
 							<li class="nav-item">
 								<div id="btn-bookhere-nav">
@@ -78,49 +79,24 @@
 <!-- End of navbar. -->
 
 	</header>
-	
-	<body>
-		<div class="row">
-			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-				<div class="contactform">
-			    	<h1>CONTACT US</h1>
-			    		<p>Swing by for a cup of coffee, or leave us a message:</p>
-				
-					<form>
-						<div class="form-group row">
-				   			<label for="inputName">Name</label>
-				      		<input type="name" class="form-control" id="inputName" placeholder="Name here...">
-						</div>
-						<div class="form-group row">
-				   			<label for="inputEmail">Email</label>				    		
-				      		<input type="email" class="form-control" id="inputEmail" placeholder="Email here...">			    		
-						</div>				
-						<div class="form-group row">
-				    		<label for="inputMessage">Message</label>
-						</div>	
-				    	<textarea class="form-control" id="message" rows="4" placeholder="Type your message here..."></textarea>
-						<br>
-				  		<a type="submit" href="contactformconfirmation.html" class="btn btn-outline-primary">Send</a>
-						<br>
-					</form>
-				</div>
-			</div>
-			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">	
-				<div id="campus">
-					<img src="./images/buascampus.jpg" class="responsive" alt="BUas Campus">
-					<p><img src="./images/address.png" class="icons" alt="address icon"/> Breda University of Applied Sciences
-					<br>Postbus 3917
-					<br>4800 DX  Breda
-					<br><img src="./images/phone.png" class="icons" alt="phone icon"/> T: (076) 533 22 03
-					</p>
-				</div>
-			</div>
-		</div>
 
-	
-		<script src="./js/jquery-3.4.1.slim.min.js"></script>
-	   	<script src="js/bootstrap.bundle.min.js"></script>
-		
+	<body>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div id="confirmed">
+						<div class="card">
+  							<div class="card-body">
+							   Your message has been sent.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+<!--Bootstrap scripts. -->				
+			<script src="./js/jquery-3.4.1.slim.min.js"></script>
+	   		<script src="js/bootstrap.bundle.min.js"></script>
+	   		
 	</body>
 
 	<footer>
@@ -155,5 +131,5 @@
 				</div>
 			</div>
 	</footer>
-
+	
 </html>
