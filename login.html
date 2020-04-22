@@ -10,7 +10,7 @@
    		<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
    		<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 			
-		<title> UNWIND </title> 
+		<title> Profile page </title> 
 	</head>
 
 	<header>
@@ -177,7 +177,7 @@
 						  <option>Painting</option>
 						</select>
 						<br>
-						<div id="btn-submit">
+						<div class="btn-submit">
 						<a class="btn btn-outline-primary" href="confirmation.html" type="button">Submit</a>
 						</div>
 <!--End timetable. -->
@@ -253,7 +253,9 @@
 							    	</div>
 									</div>
 							  		</div>
-							  	<a type="submit" href="personalinfoconfirmation.html" class="btn btn-outline-primary">Change information</a>
+							  	<div class="btn-submit">
+								<a type="submit" href="personalinfoconfirmation.html" class="btn btn-outline-primary">Change information</a>
+								</div>
 							</form>
 					</div>	
 				</div>
@@ -266,13 +268,58 @@
 					<div class="column-login">
 						<h1> MY RESERVATIONS
 						</h1>
-						<ul>1. We - 03/06/2020 - 10:15 - cuddling with puppies </ul>
-						<ul>2. Fr - 12/06/2020 - 11:30 - claying </ul>
-						<ul>3. Mo - 22/06/2020 - 12:45 - painting</ul>
-						<ul>4.</ul>
-						<ul>5.</ul>
-						<br>
-						<br>
+						<table class="table table-hover">
+						 	<thead>
+								<tr>
+								  <th scope="col">#</th>
+								  <th scope="col">DAY</th>
+								  <th scope="col">DATE</th>
+								  <th scope="col">TIME</th>
+								  <th scope="col">ACTIVITY</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>				     	
+									<td>1.</td>
+									<td>We</td>
+									<td>03/06/2020</td>
+									<td>10:15</td>
+									<td>cuddling with puppies</td>
+								</tr>
+								<tr>
+
+									<td>2.</td>
+									<td>Fr</td>
+									<td>12/06/2020</td>
+									<td>11:30</td>
+									<td>claying</td>
+								</tr>
+								<tr>
+									<td>3.</td>
+									<td>Mo</td>
+									<td>22/06/2020 </td>
+									<td>12:45</td>
+									<td>painting</td>    
+								</tr>
+								<tr>
+									<td>4.</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>  
+								</tr>
+								<tr>
+									<td>5.</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>  
+								</tr>
+						  </tbody>
+						</table>
+						<div class="btn-submit">
+							<a type="submit" href="cancelreservation.html" class="btn btn-outline-primary">Cancel reservation</a>
+						</div>
 					</div>
 				
 					<div class="column-login">

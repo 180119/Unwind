@@ -26,6 +26,10 @@
 	left:-75px;
 }
 
+div#navbarNavDropdown.navbar-collapse.collapse.show {
+	height: 270px;
+}
+
 /*headings etc.*/ 
 
 h1,h2,h3{
@@ -76,14 +80,6 @@ p{
 	text-align: left;
 }
 
-.column-login{
-	margin: 50px;
-	border-top-style: solid;
-	border-width: 10px;
-	border-color: #fff0b3;
-	text-align: justify;
-	color: #384463;
-}
 
 #vision {
 	font-style: italic;
@@ -150,13 +146,15 @@ p{
 	font-size: 30px;
 }
 
-#btn-submit{
-	margin-left: 100px;
+div.btn-submit a{
+	margin-left: 25%;
+	width: 170px;
 }
 
 #btn-send-feedback{
 	float: right;
 }
+
 
  a{
  	font-family: dosis;
@@ -164,6 +162,15 @@ p{
  }
 
 /*login page*/ 
+
+.column-login{
+	margin: 50px;
+	border-top-style: solid;
+	border-width: 10px;
+	border-color: #fff0b3;
+	text-align: justify;
+	color: #384463;
+}
 
 ul {list-style-type: none;}
 body {font-family: Dosis, sans-serif;}
@@ -240,7 +247,7 @@ body {font-family: Dosis, sans-serif;}
 td{
 	cursor: pointer;
 }
-td:hover{
+.table-bordered td:hover{
 	background-color: lightgrey;
 
 }
