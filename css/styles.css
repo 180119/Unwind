@@ -27,7 +27,7 @@
 }
 
 div#navbarNavDropdown.navbar-collapse.collapse.show {
-	height: 270px;
+	height: 290px;
 }
 
 /*headings etc.*/ 
@@ -90,8 +90,8 @@ p{
 /*about page*/ 
 
 .aboutus {
-	padding: 100px;
-	margin: 30px;
+	padding: 18%;
+	
 }
 .aboutus img{
 	width: 200px;
@@ -141,10 +141,11 @@ p{
 }
 
 .btn-bookhere a{
-	width: 325px;
+	width: 290px;
 	height: 65px;
 	font-size: 30px;
 }
+
 
 div.btn-submit a{
 	margin-left: 25%;
@@ -263,9 +264,11 @@ td{
 }
 /*justification page*/ 
 
-#flow-diagram img{
-	margin-left: 70%;
-	width: 70%;
+.flow-diagram img{	
+	display:block;
+    margin-left: 75%;
+    margin-right: 25%;
+	width: 50%;
 }
 
 .justification{
@@ -312,6 +315,13 @@ td{
 }
 
 @media (max-width: 575px) {
+	.justification{
+		margin: 5%;
+		
+	}
+	.flow-diagram img{
+		margin: auto;
+	}
 	.footer {
 		height: auto;
 	}
@@ -321,3 +331,13 @@ td{
 	}
 }
 
+@media (max-width: 990px) {
+	.aboutus {
+	padding: 40px;
+	}
+	
+	.navbar-collapse.collapse.show {
+      z-index: 9999;
+      margin-left:-50px;
+   }
+}
