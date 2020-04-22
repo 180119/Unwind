@@ -2,6 +2,7 @@
  box-sizing: border-box	
 }
 
+/*navbar*/ 
 .navbar-nav{
 	position: absolute;
     right: 0;
@@ -25,11 +26,7 @@
 	left:-75px;
 }
 
-.carousel {
-  width: auto;
-
-}
-
+/*headings etc.*/ 
 
 h1,h2,h3{
 	font-family: Permanent Marker;
@@ -42,13 +39,26 @@ h1{
 
 }
 
-h3{
-	font-size: 18px;
-	
+h2{
+	color:#384463;
+	font-size: 23px;
 }
+
+h3{
+	color:#384463;
+	font-size: 18px;
+
+}
+
 
 p{
 	font-family: dosis;
+
+}
+
+/*home page*/ 
+.carousel {
+  width: 100%;
 
 }
 
@@ -81,16 +91,19 @@ p{
 
 }
 
-#aboutus {
+/*about page*/ 
+
+.aboutus {
 	padding: 100px;
 	margin: 30px;
 }
-#aboutus img{
+.aboutus img{
 	width: 200px;
 	height: 200px;
 	float: left;
-
 }
+
+/*contact page*/ 
 
 .contactform {
 	margin:100px;
@@ -102,12 +115,15 @@ p{
 
 #campus img{
 	width: 100%;
+	margin-bottom: 20px;	
 }
 
 .icons {
   width: 30px !important;
   height: 30px !important;
 }
+
+/*buttons*/ 
 
 .btn {
 	border-color: #fff0b3;
@@ -117,9 +133,6 @@ p{
 	width: 110px;
 }
 
-.btn:active {
- 	color: #384463;
- }
 
 .btn:hover{ 
 	background-color: #ffffff;
@@ -131,7 +144,7 @@ p{
 	margin-left: 80px;
 }
 
-#btn-bookhere a{
+.btn-bookhere a{
 	width: 325px;
 	height: 65px;
 	font-size: 30px;
@@ -150,6 +163,7 @@ p{
  	color: #384463;
  }
 
+/*login page*/ 
 
 ul {list-style-type: none;}
 body {font-family: Dosis, sans-serif;}
@@ -240,24 +254,48 @@ td:hover{
 	float:left;
 
 }
+/*justification page*/ 
+
+#flow-diagram img{
+	margin-left: 70%;
+	width: 70%;
+}
 
 .justification{
-	margin: 10%;
+	margin: 5% 20% 0% 20%;
 }
+
+.justification p{
+	margin-left: 60px;
+}
+.justification h3{
+	margin-left: 60px;
+}
+
+.justification li{
+	margin-left: 100px;
+}
+
+.justificationcarousel .carousel-caption{
+	color: #000000;
+}
+
+.justificationcarousel .carousel {
+	width:50%;
+	margin-left: 25%;
+}
+
 
 #confirmed{
 	padding: 200px;
 	text-align: center;
 }
 
+/*footer*/ 
 #copyright {
 	 font-weight: bold;
 }
 
-.fa{
-	color: #384463;
-
-}
 
 .footer{
 	height: 70px;
